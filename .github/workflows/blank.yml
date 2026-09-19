@@ -11,6 +11,19 @@ sobre:
 
 empregos:
   implantar-rdp:
+nome: PC criado pelo @alves7.pcm
+
+sobre:
+  despacho de fluxo de trabalho:
+    entradas:
+      número_da_instância:
+        Descrição: 'Número da instância (1-10)'
+        obrigatório: verdadeiro
+        padrão: '1'
+        tipo: string
+
+empregos:
+  implantar-rdp:
     executa em: windows-latest
     tempo limite em minutos: 360
     
